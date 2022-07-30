@@ -96,6 +96,8 @@ h3 {
 }
 
 .brand-title {
+  background-color: #f88912;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 3rem;
   border-radius: 50%;
@@ -139,7 +141,9 @@ form {
   height: 80px;
 }
 
-#brand-end-dot {
+#brand-end-dot,
+#brand-end-dot-2,
+.brand-end {
   color: rgb(39, 39, 39);
   background-color: #f88912;
 }
@@ -207,6 +211,96 @@ a:hover {
   cursor: pointer;
 }
 
-.join-crework-2 {
-  margin-left: 100px;
+.signup-parent-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.signup-child-container {
+  height: 80vh;
+  width: 30vw;
+  background-color: #f88912;
+  margin-top: 50px;
+  transition: box-shadow 0.2s;
+  border-radius: 3%;
+}
+
+.signup-child-container:hover {
+  box-shadow: 5px 5px 10px 3px #ebc4c4;
+}
+.name,
+.email,
+.password {
+  background-color: #f88912;
+}
+
+#name,
+#email,
+#password-2,
+#password-3 {
+  background-color: white;
+  width: 90%;
+  color: #8f8f8f;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.email,
+.password,
+.agree-container {
+  margin-top: 10px;
+}
+
+.agree-container {
+  margin-left: 15px;
+  background-color: #f88912;
+  height: 30px;
+}
+#agree {
+  height: 15px;
+  width: 15px;
+}
+h2 {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  background-color: #f88912;
+  color: #8f8f8f;
+  margin-left: 10px;
+}
+
+.signup-button {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f88912;
+}
+
+.submit-btn {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  width: 90%;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: box-shadow 0.2s;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 3px #ebc4c4;
+}
+
+.signup-gif {
+  background-color: #f88912;
+  margin-bottom: 19px;
+}
+
+.final-footer {
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: #f88912;
+  color: #8f8f8f;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
