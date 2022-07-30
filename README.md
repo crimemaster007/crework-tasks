@@ -4,5 +4,5 @@
 
 # week-2
 
-### added css in week-1 task.
+### added css in login/signup task.
 
