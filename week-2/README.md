@@ -1,4 +1,4 @@
-# week-2**
+# week-2
 
 ### Description
 styled html login and signup page using css.
