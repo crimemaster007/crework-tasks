@@ -2,7 +2,7 @@
 
 ### Description
 front end mentor task using tailwind CSS.
-
+[Link to deployed site](https://responsive-tailwind-task-tushar9211.netlify.app/)
 ## Features
 
 ### Main page - desktop view:
