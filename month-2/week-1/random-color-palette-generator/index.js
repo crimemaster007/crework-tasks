@@ -32,7 +32,7 @@ for (let i = 0; i < 4; i++){
     colorParent[i].addEventListener("click", (e) => {
         let colorVal = colorParent[i].querySelector(".hex-code-container").innerText;
         document.body.style.backgroundColor = colorVal;
-        navigator.clipboard.writeText(colorVal);
+        navigator.clipboard.writeText(colorVal);// copy to clipboard
 
         setTimeout(() => {
             notificationBar.innerText = "Color " + colorVal + " copied to your clipboard.";
