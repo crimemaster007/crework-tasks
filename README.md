@@ -13,11 +13,11 @@
 
 ### login-form validation.
 
-#week-5
+# week-5
 
 ### random-color palette generartor
 
-#week-6
+# week-6
 
 ### todo-list app
 
